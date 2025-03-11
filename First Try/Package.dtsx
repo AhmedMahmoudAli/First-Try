@@ -11,8 +11,9 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="15"
-  DTS:VersionGUID="{A2E2BD4A-7D92-4C2F-A319-5901560C86B6}">
+  DTS:ProtectionLevel="0"
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{18054F7F-F601-4AD4-BF4F-E1DDA4820C85}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -28,8 +29,7 @@
           DTS:ConnectionString="Data Source=172.20.1.136;User ID=bbi.ahmed;Provider=MSOLEDBSQL.1;Persist Security Info=True;Application Name=SSIS-Package-{07D484CF-5F55-427F-BD30-C1DC1B67CB9F}172.20.1.136.bbi.ahmed;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeINlMzelK0er6xLjezhJ1AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADYoBYUaYgou9xGVESAsX+cEXiDUEKCFGjfI8WCaHXTAAAAAAAOgAAAAAIAACAAAADsXT/Z/0W0I3Wtlniz4iK/9nrHXeQGif7CRa1d+tfR4DAAAADnsppJS2KsvzoUkhQt5ctkrWdYvvUC0G3VihK+3vKJSXH5JwhLFqrEWK677kES6w5AAAAAh8evOBntRKCs3r9P3Ld/e/7N1odWWlVbU1cgciPPhF5XXWIiAbU7+jidop8x4yI2i0/G46cejvRsGBTbbmC7+A</DTS:Password>
+            Sensitive="1"></DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -45,8 +45,7 @@
           DTS:ConnectionString="Data Source=172.20.1.136;User ID=bbi.ahmed;Provider=MSOLEDBSQL.1;Persist Security Info=True;Application Name=SSIS-Package-{51E98B34-B0E8-487E-9AC1-0F194137F00E}172.20.1.136.bbi.ahmed 1;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeINlMzelK0er6xLjezhJ1AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAyhJG1xGA7kzhO9BR6W28O+au6HWG+qzINOlnCnEE+TgAAAAAOgAAAAAIAACAAAABv+RPw3Razjoxb1h59jMshP5KnTt/n6IStf8Ryd9EsNzAAAACL7LHD08jScpatMwH05yI8ZIjwAbJIzAK4ADKfi+MATMZ8ORWyC/01FUObMgFzZhNAAAAAt1o4uqET9cct4gq9wdvv6MhpKt2z89HyEF7JKjLo9K5PMgXGzhIPt7t6UOt0j/Kl5quHe2X+EyPuQ+BEDlrdfw</DTS:Password>
+            Sensitive="1"></DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1166,13 +1165,13 @@ FROM
           Id="Package\Data Flow Task\Flat File Destination"
           TopLeft="347.333327031798,424.199994340141" />
         <NodeLayout
-          Size="152,41.6"
-          Id="Package\Data Flow Task\OLE DB Source"
-          TopLeft="344.999994859099,94.9999985843897" />
-        <NodeLayout
           Size="156,41.6"
           Id="Package\Data Flow Task\Data Conversion"
           TopLeft="325.833315530586,231.933332254556" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Data Flow Task\OLE DB Source"
+          TopLeft="344.999994859099,94.9999985843897" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
           TopLeft="420.999994859099,136.59999858439">
